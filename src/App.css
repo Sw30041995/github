@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+header {
+    height: 72px;
+    background-color: #0064EB;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 41px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+    width: 41px;
+    height: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header input {
+    margin-left: 20px;
+    height: 40px;
+    width: 500px;
+    border-radius: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.startPage {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.startPage img {
+    height: 65px;
+    width: 65px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.startPage .title {
+    color: #808080;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.userNotFoundPage {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userNotFoundPage img {
+    width: 65px;
+    height: 74px;
+}
+
+.userNotFoundPage .title {
+    color: #808080;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.userPage {
+    margin: 39px 57px 30px 57px;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.repositories {
+    margin-left: 96px;
 }
